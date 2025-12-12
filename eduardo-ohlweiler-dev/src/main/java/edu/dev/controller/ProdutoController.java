@@ -93,7 +93,6 @@ public class ProdutoController {
 	}
 	
 	
-	// FALTA PASSAR PARA O ALUNO
 	//http://localhost:8080/eduardo-ohlweiler/api/produtos/listaPaginada?page=0&size=5
 	@GetMapping("/listaPaginada")
 	public ResponseEntity<List<Produto>> listaPaginada(@RequestParam(defaultValue = "0") int page,
