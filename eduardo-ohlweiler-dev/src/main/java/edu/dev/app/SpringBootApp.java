@@ -11,7 +11,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @ComponentScan(basePackages = { "edu.dev.*" })
 @EnableJpaRepositories(basePackages = { "edu.dev.repository" })
 public class SpringBootApp {
+	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootApp.class, args);
 	}
+	
 }
